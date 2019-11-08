@@ -1,0 +1,27 @@
+{
+  "name": "collapse-tasks-queue",
+  "version": "0.0.1",
+  "description": "Collapse tasks queue",
+  "main": "index.js",
+  "repository": "https://github.com/ssypachev/collapse-tasks-queue",
+  "scripts": {
+    "test": "mocha tests --timeout=30000",
+	"cover": "nyc mocha tests"
+  },
+  "directories": {
+    "test": "tests,examples"
+  },
+  "keywords": [
+    "collapse",
+    "task",
+    "queue",
+    "sheduler"
+  ],
+  "author": "Sypachev S.S.",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
+  }
+}
